@@ -1,5 +1,7 @@
 # SleepRecorder 🌙
 
+Tout d'abord, voici une démo vidéo du projet : [SleepRecorder](https://youtube.com/shorts/tydkgHQmuDw?feature=share)
+
 Prototype d'application Android développée en Kotlin. 
 # 🌙 SleepRecorder - Guide d'Utilisation
 
