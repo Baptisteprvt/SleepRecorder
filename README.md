@@ -1,9 +1,9 @@
-# SleepRecorder 🌙
+# SleepRecorder 
 
 Tout d'abord, voici une démo vidéo du projet : [SleepRecorder](https://youtube.com/shorts/tydkgHQmuDw?feature=share)
 
 Prototype d'application Android développée en Kotlin. 
-# 🌙 SleepRecorder - Guide d'Utilisation
+#  SleepRecorder - Guide d'Utilisation
 
 Bienvenue dans **SleepRecorder**, une application Android native conçue pour capturer les bruits de la nuit (ronflements, paroles, bruits environnants).
 
@@ -54,23 +54,23 @@ Sur l'écran de la liste des enregistrements, vous retrouverez toutes les captur
 * ** Télécharger :** Par défaut, les fichiers sont cachés pour votre vie privée. Si vous souhaitez conserver un fichier ou le partager, appuyez sur l'icône de partage (à droite de l'enregistrement). Le fichier sera copié dans le dossier public **`Téléchargements/SleepRecorder`** de votre téléphone.
 * ** Tout supprimer :** Si vous souhaitez faire le ménage manuellement, un bouton rouge "Tout supprimer" en haut à droite permet d'effacer définitivement tous les enregistrements d'un seul coup.
 
-> **💡 Note sur le stockage :** Pour éviter de saturer la mémoire de votre téléphone, l'application effectue un nettoyage automatique. À chaque fois que vous lancez une nouvelle nuit, les fichiers vieux de plus de 24 heures sont supprimés automatiquement.
+> ** Note sur le stockage :** Pour éviter de saturer la mémoire de votre téléphone, l'application effectue un nettoyage automatique. À chaque fois que vous lancez une nouvelle nuit, les fichiers vieux de plus de 24 heures sont supprimés automatiquement.
 
 ---
 
-## 🛡️ Confidentialité
+##  Confidentialité
 * Cette application fonctionne **100% hors-ligne**. 
 * Aucun son ni fichier n'est envoyé sur des serveurs externes.
 * Les fichiers bruts sont stockés dans le bac à sable privé de l'application (Scoped Storage) et ne sont accessibles qu'à vous.
 
-## Fonctionnalités 🚀
+## Fonctionnalités 
 * **Écoute intelligente :** Utilisation de `AudioRecord` en arrière-plan pour détecter les seuils sonores.
 * **Service persistant :** Implémentation d'un `Foreground Service` avec `WakeLock` pour garantir le fonctionnement de l'application l'écran éteint.
 * **Sauvegarde sécurisée :** Enregistrement des données (`MediaRecorder`) dans le stockage interne privé de l'application.
 * **Export public :** Utilisation de l'API `MediaStore` pour permettre à l'utilisateur d'exporter ses fichiers audio vers le dossier public "Téléchargements".
 * **Nettoyage automatique :** Gestion automatique de l'espace de stockage avec suppression des fichiers obsolètes.
 
-## Technologies utilisées 🛠️
+## Technologies utilisées 
 * **UI :** Jetpack Compose (Material 3, Dark Theme natif, animations personnalisées).
 * **Concurrence :** Kotlin Coroutines (`Dispatchers.IO`) pour la gestion asynchrone du moteur audio sans bloquer le Main Thread.
 * **Audio :** API `AudioRecord` (PCM) et `MediaRecorder` (AAC/m4a).
