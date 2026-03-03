@@ -6,7 +6,7 @@ Prototype d'application Android développée en Kotlin.
 #  SleepRecorder - Guide d'Utilisation
 
 Bienvenue dans **SleepRecorder**, une application Android native conçue pour capturer les bruits de la nuit (ronflements, paroles, bruits environnants).
-
+Ce projet à pour but une utilisation personnelle, les offres Android de ce type de produits en version gratuites étant limitées.
 Ce document explique comment installer et utiliser l'application au quotidien.
 
 ---
